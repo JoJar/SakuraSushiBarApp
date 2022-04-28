@@ -16,6 +16,27 @@
 		0346180D2813FF5F00BCF16F /* Sakura_Sushi_Bar_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0346180C2813FF5F00BCF16F /* Sakura_Sushi_Bar_AppTests.swift */; };
 		034618172813FF5F00BCF16F /* Sakura_Sushi_Bar_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034618162813FF5F00BCF16F /* Sakura_Sushi_Bar_AppUITests.swift */; };
 		034618192813FF5F00BCF16F /* Sakura_Sushi_Bar_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034618182813FF5F00BCF16F /* Sakura_Sushi_Bar_AppUITestsLaunchTests.swift */; };
+		034618262814058500BCF16F /* logoWithText.png in Resources */ = {isa = PBXBuildFile; fileRef = 034618252814058400BCF16F /* logoWithText.png */; };
+		034618272814058500BCF16F /* logoWithText.png in Resources */ = {isa = PBXBuildFile; fileRef = 034618252814058400BCF16F /* logoWithText.png */; };
+		034618282814058500BCF16F /* logoWithText.png in Resources */ = {isa = PBXBuildFile; fileRef = 034618252814058400BCF16F /* logoWithText.png */; };
+		0346182A2814088E00BCF16F /* PT_Serif in Resources */ = {isa = PBXBuildFile; fileRef = 034618292814088D00BCF16F /* PT_Serif */; };
+		0346182B2814088E00BCF16F /* PT_Serif in Resources */ = {isa = PBXBuildFile; fileRef = 034618292814088D00BCF16F /* PT_Serif */; };
+		0346182C2814088E00BCF16F /* PT_Serif in Resources */ = {isa = PBXBuildFile; fileRef = 034618292814088D00BCF16F /* PT_Serif */; };
+		0346182E28140B9700BCF16F /* homeFlower.png in Resources */ = {isa = PBXBuildFile; fileRef = 0346182D28140B9700BCF16F /* homeFlower.png */; };
+		0346182F28140B9700BCF16F /* homeFlower.png in Resources */ = {isa = PBXBuildFile; fileRef = 0346182D28140B9700BCF16F /* homeFlower.png */; };
+		0346183028140B9700BCF16F /* homeFlower.png in Resources */ = {isa = PBXBuildFile; fileRef = 0346182D28140B9700BCF16F /* homeFlower.png */; };
+		034618362814227900BCF16F /* Home Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 034618352814227900BCF16F /* Home Icon.png */; };
+		034618372814227900BCF16F /* Home Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 034618352814227900BCF16F /* Home Icon.png */; };
+		034618382814227900BCF16F /* Home Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 034618352814227900BCF16F /* Home Icon.png */; };
+		0346183A2814227D00BCF16F /* Location Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 034618392814227D00BCF16F /* Location Icon.png */; };
+		0346183B2814227D00BCF16F /* Location Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 034618392814227D00BCF16F /* Location Icon.png */; };
+		0346183C2814227D00BCF16F /* Location Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 034618392814227D00BCF16F /* Location Icon.png */; };
+		0346183E2814228100BCF16F /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 0346183D2814228100BCF16F /* menu.png */; };
+		0346183F2814228100BCF16F /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 0346183D2814228100BCF16F /* menu.png */; };
+		034618402814228100BCF16F /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 0346183D2814228100BCF16F /* menu.png */; };
+		034618422814228500BCF16F /* other.png in Resources */ = {isa = PBXBuildFile; fileRef = 034618412814228400BCF16F /* other.png */; };
+		034618432814228500BCF16F /* other.png in Resources */ = {isa = PBXBuildFile; fileRef = 034618412814228400BCF16F /* other.png */; };
+		034618442814228500BCF16F /* other.png in Resources */ = {isa = PBXBuildFile; fileRef = 034618412814228400BCF16F /* other.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +70,13 @@
 		034618122813FF5F00BCF16F /* Sakura Sushi Bar AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sakura Sushi Bar AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		034618162813FF5F00BCF16F /* Sakura_Sushi_Bar_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sakura_Sushi_Bar_AppUITests.swift; sourceTree = "<group>"; };
 		034618182813FF5F00BCF16F /* Sakura_Sushi_Bar_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sakura_Sushi_Bar_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		034618252814058400BCF16F /* logoWithText.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logoWithText.png; path = Assets.xcassets/logoWithText.png; sourceTree = "<group>"; };
+		034618292814088D00BCF16F /* PT_Serif */ = {isa = PBXFileReference; lastKnownFileType = folder; path = PT_Serif; sourceTree = "<group>"; };
+		0346182D28140B9700BCF16F /* homeFlower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homeFlower.png; sourceTree = "<group>"; };
+		034618352814227900BCF16F /* Home Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Home Icon.png"; sourceTree = "<group>"; };
+		034618392814227D00BCF16F /* Location Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Location Icon.png"; sourceTree = "<group>"; };
+		0346183D2814228100BCF16F /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
+		034618412814228400BCF16F /* other.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = other.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +131,13 @@
 				034617F72813FE8300BCF16F /* SceneDelegate.swift */,
 				034617F92813FE8300BCF16F /* ViewController.swift */,
 				034617FB2813FE8400BCF16F /* Main.storyboard */,
+				0346182D28140B9700BCF16F /* homeFlower.png */,
+				034618352814227900BCF16F /* Home Icon.png */,
+				034618392814227D00BCF16F /* Location Icon.png */,
+				0346183D2814228100BCF16F /* menu.png */,
+				034618412814228400BCF16F /* other.png */,
+				034618252814058400BCF16F /* logoWithText.png */,
+				034618292814088D00BCF16F /* PT_Serif */,
 				034617FE2813FF4E00BCF16F /* Assets.xcassets */,
 				034618002813FF4F00BCF16F /* LaunchScreen.storyboard */,
 				034618032813FF4F00BCF16F /* Info.plist */,
@@ -232,8 +267,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				034618022813FF4F00BCF16F /* LaunchScreen.storyboard in Resources */,
+				0346182E28140B9700BCF16F /* homeFlower.png in Resources */,
+				034618362814227900BCF16F /* Home Icon.png in Resources */,
+				0346182A2814088E00BCF16F /* PT_Serif in Resources */,
+				034618262814058500BCF16F /* logoWithText.png in Resources */,
+				0346183E2814228100BCF16F /* menu.png in Resources */,
 				034617FF2813FF4E00BCF16F /* Assets.xcassets in Resources */,
 				034617FD2813FE8400BCF16F /* Main.storyboard in Resources */,
+				0346183A2814227D00BCF16F /* Location Icon.png in Resources */,
+				034618422814228500BCF16F /* other.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +283,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0346182B2814088E00BCF16F /* PT_Serif in Resources */,
+				0346183B2814227D00BCF16F /* Location Icon.png in Resources */,
+				034618372814227900BCF16F /* Home Icon.png in Resources */,
+				0346183F2814228100BCF16F /* menu.png in Resources */,
+				0346182F28140B9700BCF16F /* homeFlower.png in Resources */,
+				034618432814228500BCF16F /* other.png in Resources */,
+				034618272814058500BCF16F /* logoWithText.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +297,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0346182C2814088E00BCF16F /* PT_Serif in Resources */,
+				0346183C2814227D00BCF16F /* Location Icon.png in Resources */,
+				034618382814227900BCF16F /* Home Icon.png in Resources */,
+				034618402814228100BCF16F /* menu.png in Resources */,
+				0346183028140B9700BCF16F /* homeFlower.png in Resources */,
+				034618442814228500BCF16F /* other.png in Resources */,
+				034618282814058500BCF16F /* logoWithText.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
