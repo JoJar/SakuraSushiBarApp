@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		031289D82821C4A600FDA4A4 /* logo-no-text.png in Resources */ = {isa = PBXBuildFile; fileRef = 031289D72821C4A400FDA4A4 /* logo-no-text.png */; };
+		031289D92821C4A600FDA4A4 /* logo-no-text.png in Resources */ = {isa = PBXBuildFile; fileRef = 031289D72821C4A400FDA4A4 /* logo-no-text.png */; };
+		031289DA2821C4A600FDA4A4 /* logo-no-text.png in Resources */ = {isa = PBXBuildFile; fileRef = 031289D72821C4A400FDA4A4 /* logo-no-text.png */; };
 		034617F62813FE8200BCF16F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034617F52813FE8200BCF16F /* AppDelegate.swift */; };
 		034617F82813FE8300BCF16F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034617F72813FE8300BCF16F /* SceneDelegate.swift */; };
 		034617FA2813FE8300BCF16F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034617F92813FE8300BCF16F /* ViewController.swift */; };
@@ -37,6 +40,12 @@
 		034618422814228500BCF16F /* other.png in Resources */ = {isa = PBXBuildFile; fileRef = 034618412814228400BCF16F /* other.png */; };
 		034618432814228500BCF16F /* other.png in Resources */ = {isa = PBXBuildFile; fileRef = 034618412814228400BCF16F /* other.png */; };
 		034618442814228500BCF16F /* other.png in Resources */ = {isa = PBXBuildFile; fileRef = 034618412814228400BCF16F /* other.png */; };
+		03461846281B4E7200BCF16F /* Six_Caps in Resources */ = {isa = PBXBuildFile; fileRef = 03461845281B4E7100BCF16F /* Six_Caps */; };
+		03461847281B4E7200BCF16F /* Six_Caps in Resources */ = {isa = PBXBuildFile; fileRef = 03461845281B4E7100BCF16F /* Six_Caps */; };
+		03461848281B4E7200BCF16F /* Six_Caps in Resources */ = {isa = PBXBuildFile; fileRef = 03461845281B4E7100BCF16F /* Six_Caps */; };
+		0346184A281B4E7A00BCF16F /* Titillium_Web in Resources */ = {isa = PBXBuildFile; fileRef = 03461849281B4E7900BCF16F /* Titillium_Web */; };
+		0346184B281B4E7A00BCF16F /* Titillium_Web in Resources */ = {isa = PBXBuildFile; fileRef = 03461849281B4E7900BCF16F /* Titillium_Web */; };
+		0346184C281B4E7A00BCF16F /* Titillium_Web in Resources */ = {isa = PBXBuildFile; fileRef = 03461849281B4E7900BCF16F /* Titillium_Web */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +66,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		031289D72821C4A400FDA4A4 /* logo-no-text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-no-text.png"; sourceTree = "<group>"; };
 		034617F22813FE8200BCF16F /* Sakura Sushi Bar App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sakura Sushi Bar App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		034617F52813FE8200BCF16F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		034617F72813FE8300BCF16F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +87,8 @@
 		034618392814227D00BCF16F /* Location Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Location Icon.png"; sourceTree = "<group>"; };
 		0346183D2814228100BCF16F /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
 		034618412814228400BCF16F /* other.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = other.png; sourceTree = "<group>"; };
+		03461845281B4E7100BCF16F /* Six_Caps */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Six_Caps; sourceTree = "<group>"; };
+		03461849281B4E7900BCF16F /* Titillium_Web */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Titillium_Web; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,10 +144,13 @@
 				034617F92813FE8300BCF16F /* ViewController.swift */,
 				034617FB2813FE8400BCF16F /* Main.storyboard */,
 				0346182D28140B9700BCF16F /* homeFlower.png */,
+				031289D72821C4A400FDA4A4 /* logo-no-text.png */,
 				034618352814227900BCF16F /* Home Icon.png */,
+				03461845281B4E7100BCF16F /* Six_Caps */,
 				034618392814227D00BCF16F /* Location Icon.png */,
 				0346183D2814228100BCF16F /* menu.png */,
 				034618412814228400BCF16F /* other.png */,
+				03461849281B4E7900BCF16F /* Titillium_Web */,
 				034618252814058400BCF16F /* logoWithText.png */,
 				034618292814088D00BCF16F /* PT_Serif */,
 				034617FE2813FF4E00BCF16F /* Assets.xcassets */,
@@ -268,7 +283,9 @@
 			files = (
 				034618022813FF4F00BCF16F /* LaunchScreen.storyboard in Resources */,
 				0346182E28140B9700BCF16F /* homeFlower.png in Resources */,
+				03461846281B4E7200BCF16F /* Six_Caps in Resources */,
 				034618362814227900BCF16F /* Home Icon.png in Resources */,
+				031289D82821C4A600FDA4A4 /* logo-no-text.png in Resources */,
 				0346182A2814088E00BCF16F /* PT_Serif in Resources */,
 				034618262814058500BCF16F /* logoWithText.png in Resources */,
 				0346183E2814228100BCF16F /* menu.png in Resources */,
@@ -276,6 +293,7 @@
 				034617FD2813FE8400BCF16F /* Main.storyboard in Resources */,
 				0346183A2814227D00BCF16F /* Location Icon.png in Resources */,
 				034618422814228500BCF16F /* other.png in Resources */,
+				0346184A281B4E7A00BCF16F /* Titillium_Web in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,11 +303,14 @@
 			files = (
 				0346182B2814088E00BCF16F /* PT_Serif in Resources */,
 				0346183B2814227D00BCF16F /* Location Icon.png in Resources */,
+				03461847281B4E7200BCF16F /* Six_Caps in Resources */,
 				034618372814227900BCF16F /* Home Icon.png in Resources */,
 				0346183F2814228100BCF16F /* menu.png in Resources */,
 				0346182F28140B9700BCF16F /* homeFlower.png in Resources */,
+				031289D92821C4A600FDA4A4 /* logo-no-text.png in Resources */,
 				034618432814228500BCF16F /* other.png in Resources */,
 				034618272814058500BCF16F /* logoWithText.png in Resources */,
+				0346184B281B4E7A00BCF16F /* Titillium_Web in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,11 +320,14 @@
 			files = (
 				0346182C2814088E00BCF16F /* PT_Serif in Resources */,
 				0346183C2814227D00BCF16F /* Location Icon.png in Resources */,
+				03461848281B4E7200BCF16F /* Six_Caps in Resources */,
 				034618382814227900BCF16F /* Home Icon.png in Resources */,
 				034618402814228100BCF16F /* menu.png in Resources */,
 				0346183028140B9700BCF16F /* homeFlower.png in Resources */,
+				031289DA2821C4A600FDA4A4 /* logo-no-text.png in Resources */,
 				034618442814228500BCF16F /* other.png in Resources */,
 				034618282814058500BCF16F /* logoWithText.png in Resources */,
+				0346184C281B4E7A00BCF16F /* Titillium_Web in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
