@@ -10,6 +10,18 @@
 		031289D82821C4A600FDA4A4 /* logo-no-text.png in Resources */ = {isa = PBXBuildFile; fileRef = 031289D72821C4A400FDA4A4 /* logo-no-text.png */; };
 		031289D92821C4A600FDA4A4 /* logo-no-text.png in Resources */ = {isa = PBXBuildFile; fileRef = 031289D72821C4A400FDA4A4 /* logo-no-text.png */; };
 		031289DA2821C4A600FDA4A4 /* logo-no-text.png in Resources */ = {isa = PBXBuildFile; fileRef = 031289D72821C4A400FDA4A4 /* logo-no-text.png */; };
+		031289E02829248A00FDA4A4 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031289DF2829248A00FDA4A4 /* MenuViewController.swift */; };
+		031289E12829248A00FDA4A4 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031289DF2829248A00FDA4A4 /* MenuViewController.swift */; };
+		031289E22829248A00FDA4A4 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031289DF2829248A00FDA4A4 /* MenuViewController.swift */; };
+		031289E62829294800FDA4A4 /* Sush2.png in Resources */ = {isa = PBXBuildFile; fileRef = 031289E32829294600FDA4A4 /* Sush2.png */; };
+		031289E72829294800FDA4A4 /* Sush2.png in Resources */ = {isa = PBXBuildFile; fileRef = 031289E32829294600FDA4A4 /* Sush2.png */; };
+		031289E82829294800FDA4A4 /* Sush2.png in Resources */ = {isa = PBXBuildFile; fileRef = 031289E32829294600FDA4A4 /* Sush2.png */; };
+		031289E92829294800FDA4A4 /* Sush3.png in Resources */ = {isa = PBXBuildFile; fileRef = 031289E42829294700FDA4A4 /* Sush3.png */; };
+		031289EA2829294800FDA4A4 /* Sush3.png in Resources */ = {isa = PBXBuildFile; fileRef = 031289E42829294700FDA4A4 /* Sush3.png */; };
+		031289EB2829294800FDA4A4 /* Sush3.png in Resources */ = {isa = PBXBuildFile; fileRef = 031289E42829294700FDA4A4 /* Sush3.png */; };
+		031289EC2829294800FDA4A4 /* Sush1.png in Resources */ = {isa = PBXBuildFile; fileRef = 031289E52829294700FDA4A4 /* Sush1.png */; };
+		031289ED2829294800FDA4A4 /* Sush1.png in Resources */ = {isa = PBXBuildFile; fileRef = 031289E52829294700FDA4A4 /* Sush1.png */; };
+		031289EE2829294800FDA4A4 /* Sush1.png in Resources */ = {isa = PBXBuildFile; fileRef = 031289E52829294700FDA4A4 /* Sush1.png */; };
 		034617F62813FE8200BCF16F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034617F52813FE8200BCF16F /* AppDelegate.swift */; };
 		034617F82813FE8300BCF16F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034617F72813FE8300BCF16F /* SceneDelegate.swift */; };
 		034617FA2813FE8300BCF16F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034617F92813FE8300BCF16F /* ViewController.swift */; };
@@ -67,6 +79,10 @@
 
 /* Begin PBXFileReference section */
 		031289D72821C4A400FDA4A4 /* logo-no-text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-no-text.png"; sourceTree = "<group>"; };
+		031289DF2829248A00FDA4A4 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		031289E32829294600FDA4A4 /* Sush2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sush2.png; sourceTree = "<group>"; };
+		031289E42829294700FDA4A4 /* Sush3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sush3.png; sourceTree = "<group>"; };
+		031289E52829294700FDA4A4 /* Sush1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sush1.png; sourceTree = "<group>"; };
 		034617F22813FE8200BCF16F /* Sakura Sushi Bar App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sakura Sushi Bar App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		034617F52813FE8200BCF16F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		034617F72813FE8300BCF16F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -144,7 +160,11 @@
 				034617F92813FE8300BCF16F /* ViewController.swift */,
 				034617FB2813FE8400BCF16F /* Main.storyboard */,
 				0346182D28140B9700BCF16F /* homeFlower.png */,
+				031289E52829294700FDA4A4 /* Sush1.png */,
+				031289E32829294600FDA4A4 /* Sush2.png */,
+				031289E42829294700FDA4A4 /* Sush3.png */,
 				031289D72821C4A400FDA4A4 /* logo-no-text.png */,
+				031289DF2829248A00FDA4A4 /* MenuViewController.swift */,
 				034618352814227900BCF16F /* Home Icon.png */,
 				03461845281B4E7100BCF16F /* Six_Caps */,
 				034618392814227D00BCF16F /* Location Icon.png */,
@@ -281,6 +301,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				031289EC2829294800FDA4A4 /* Sush1.png in Resources */,
 				034618022813FF4F00BCF16F /* LaunchScreen.storyboard in Resources */,
 				0346182E28140B9700BCF16F /* homeFlower.png in Resources */,
 				03461846281B4E7200BCF16F /* Six_Caps in Resources */,
@@ -292,8 +313,10 @@
 				034617FF2813FF4E00BCF16F /* Assets.xcassets in Resources */,
 				034617FD2813FE8400BCF16F /* Main.storyboard in Resources */,
 				0346183A2814227D00BCF16F /* Location Icon.png in Resources */,
+				031289E62829294800FDA4A4 /* Sush2.png in Resources */,
 				034618422814228500BCF16F /* other.png in Resources */,
 				0346184A281B4E7A00BCF16F /* Titillium_Web in Resources */,
+				031289E92829294800FDA4A4 /* Sush3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,14 +326,17 @@
 			files = (
 				0346182B2814088E00BCF16F /* PT_Serif in Resources */,
 				0346183B2814227D00BCF16F /* Location Icon.png in Resources */,
+				031289EA2829294800FDA4A4 /* Sush3.png in Resources */,
 				03461847281B4E7200BCF16F /* Six_Caps in Resources */,
 				034618372814227900BCF16F /* Home Icon.png in Resources */,
 				0346183F2814228100BCF16F /* menu.png in Resources */,
 				0346182F28140B9700BCF16F /* homeFlower.png in Resources */,
+				031289ED2829294800FDA4A4 /* Sush1.png in Resources */,
 				031289D92821C4A600FDA4A4 /* logo-no-text.png in Resources */,
 				034618432814228500BCF16F /* other.png in Resources */,
 				034618272814058500BCF16F /* logoWithText.png in Resources */,
 				0346184B281B4E7A00BCF16F /* Titillium_Web in Resources */,
+				031289E72829294800FDA4A4 /* Sush2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,14 +346,17 @@
 			files = (
 				0346182C2814088E00BCF16F /* PT_Serif in Resources */,
 				0346183C2814227D00BCF16F /* Location Icon.png in Resources */,
+				031289EB2829294800FDA4A4 /* Sush3.png in Resources */,
 				03461848281B4E7200BCF16F /* Six_Caps in Resources */,
 				034618382814227900BCF16F /* Home Icon.png in Resources */,
 				034618402814228100BCF16F /* menu.png in Resources */,
 				0346183028140B9700BCF16F /* homeFlower.png in Resources */,
+				031289EE2829294800FDA4A4 /* Sush1.png in Resources */,
 				031289DA2821C4A600FDA4A4 /* logo-no-text.png in Resources */,
 				034618442814228500BCF16F /* other.png in Resources */,
 				034618282814058500BCF16F /* logoWithText.png in Resources */,
 				0346184C281B4E7A00BCF16F /* Titillium_Web in Resources */,
+				031289E82829294800FDA4A4 /* Sush2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +370,7 @@
 				034617FA2813FE8300BCF16F /* ViewController.swift in Sources */,
 				034617F62813FE8200BCF16F /* AppDelegate.swift in Sources */,
 				034617F82813FE8300BCF16F /* SceneDelegate.swift in Sources */,
+				031289E02829248A00FDA4A4 /* MenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,6 +379,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0346180D2813FF5F00BCF16F /* Sakura_Sushi_Bar_AppTests.swift in Sources */,
+				031289E12829248A00FDA4A4 /* MenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,6 +388,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				034618192813FF5F00BCF16F /* Sakura_Sushi_Bar_AppUITestsLaunchTests.swift in Sources */,
+				031289E22829248A00FDA4A4 /* MenuViewController.swift in Sources */,
 				034618172813FF5F00BCF16F /* Sakura_Sushi_Bar_AppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
