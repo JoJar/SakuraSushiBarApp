@@ -61,6 +61,9 @@
 		0346184A281B4E7A00BCF16F /* Titillium_Web in Resources */ = {isa = PBXBuildFile; fileRef = 03461849281B4E7900BCF16F /* Titillium_Web */; };
 		0346184B281B4E7A00BCF16F /* Titillium_Web in Resources */ = {isa = PBXBuildFile; fileRef = 03461849281B4E7900BCF16F /* Titillium_Web */; };
 		0346184C281B4E7A00BCF16F /* Titillium_Web in Resources */ = {isa = PBXBuildFile; fileRef = 03461849281B4E7900BCF16F /* Titillium_Web */; };
+		4872DAB091342A0E83864E04 /* Pods_Sakura_Sushi_Bar_App_Sakura_Sushi_Bar_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8756B26399E4876F07C7FDAA /* Pods_Sakura_Sushi_Bar_App_Sakura_Sushi_Bar_AppUITests.framework */; };
+		96A8196EEE53D5A5C0EEDAC3 /* Pods_Sakura_Sushi_Bar_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4169B194714D663A4F232F6 /* Pods_Sakura_Sushi_Bar_AppTests.framework */; };
+		EE4DC15E5C2D080133244799 /* Pods_Sakura_Sushi_Bar_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C9463942AEDE5C1C852C4F7 /* Pods_Sakura_Sushi_Bar_App.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -109,6 +112,15 @@
 		034618412814228400BCF16F /* other.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = other.png; sourceTree = "<group>"; };
 		03461845281B4E7100BCF16F /* Six_Caps */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Six_Caps; sourceTree = "<group>"; };
 		03461849281B4E7900BCF16F /* Titillium_Web */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Titillium_Web; sourceTree = "<group>"; };
+		0C9463942AEDE5C1C852C4F7 /* Pods_Sakura_Sushi_Bar_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sakura_Sushi_Bar_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27787A9CD141889028037FB1 /* Pods-Sakura Sushi Bar App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sakura Sushi Bar App.release.xcconfig"; path = "Target Support Files/Pods-Sakura Sushi Bar App/Pods-Sakura Sushi Bar App.release.xcconfig"; sourceTree = "<group>"; };
+		7A13128A2980D42857B20666 /* Pods-Sakura Sushi Bar App-Sakura Sushi Bar AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sakura Sushi Bar App-Sakura Sushi Bar AppUITests.debug.xcconfig"; path = "Target Support Files/Pods-Sakura Sushi Bar App-Sakura Sushi Bar AppUITests/Pods-Sakura Sushi Bar App-Sakura Sushi Bar AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7B2FFC165599BBB65F1B3C7F /* Pods-Sakura Sushi Bar App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sakura Sushi Bar App.debug.xcconfig"; path = "Target Support Files/Pods-Sakura Sushi Bar App/Pods-Sakura Sushi Bar App.debug.xcconfig"; sourceTree = "<group>"; };
+		7EBBB8C1750816CBAED71B95 /* Pods-Sakura Sushi Bar AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sakura Sushi Bar AppTests.release.xcconfig"; path = "Target Support Files/Pods-Sakura Sushi Bar AppTests/Pods-Sakura Sushi Bar AppTests.release.xcconfig"; sourceTree = "<group>"; };
+		8756B26399E4876F07C7FDAA /* Pods_Sakura_Sushi_Bar_App_Sakura_Sushi_Bar_AppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sakura_Sushi_Bar_App_Sakura_Sushi_Bar_AppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9259C178E81B65C16D6F14F8 /* Pods-Sakura Sushi Bar AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sakura Sushi Bar AppTests.debug.xcconfig"; path = "Target Support Files/Pods-Sakura Sushi Bar AppTests/Pods-Sakura Sushi Bar AppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A811DBCA15AB06614CAD7665 /* Pods-Sakura Sushi Bar App-Sakura Sushi Bar AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sakura Sushi Bar App-Sakura Sushi Bar AppUITests.release.xcconfig"; path = "Target Support Files/Pods-Sakura Sushi Bar App-Sakura Sushi Bar AppUITests/Pods-Sakura Sushi Bar App-Sakura Sushi Bar AppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B4169B194714D663A4F232F6 /* Pods_Sakura_Sushi_Bar_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sakura_Sushi_Bar_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +128,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE4DC15E5C2D080133244799 /* Pods_Sakura_Sushi_Bar_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,6 +136,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96A8196EEE53D5A5C0EEDAC3 /* Pods_Sakura_Sushi_Bar_AppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +144,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4872DAB091342A0E83864E04 /* Pods_Sakura_Sushi_Bar_App_Sakura_Sushi_Bar_AppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +158,8 @@
 				0346180B2813FF5F00BCF16F /* Sakura Sushi Bar AppTests */,
 				034618152813FF5F00BCF16F /* Sakura Sushi Bar AppUITests */,
 				034617F32813FE8200BCF16F /* Products */,
+				66815E9AF5F7042D6FDEC611 /* Pods */,
+				A02BD517862ACAA9C886999B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -202,6 +219,29 @@
 			path = "Sakura Sushi Bar AppUITests";
 			sourceTree = "<group>";
 		};
+		66815E9AF5F7042D6FDEC611 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7B2FFC165599BBB65F1B3C7F /* Pods-Sakura Sushi Bar App.debug.xcconfig */,
+				27787A9CD141889028037FB1 /* Pods-Sakura Sushi Bar App.release.xcconfig */,
+				7A13128A2980D42857B20666 /* Pods-Sakura Sushi Bar App-Sakura Sushi Bar AppUITests.debug.xcconfig */,
+				A811DBCA15AB06614CAD7665 /* Pods-Sakura Sushi Bar App-Sakura Sushi Bar AppUITests.release.xcconfig */,
+				9259C178E81B65C16D6F14F8 /* Pods-Sakura Sushi Bar AppTests.debug.xcconfig */,
+				7EBBB8C1750816CBAED71B95 /* Pods-Sakura Sushi Bar AppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A02BD517862ACAA9C886999B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C9463942AEDE5C1C852C4F7 /* Pods_Sakura_Sushi_Bar_App.framework */,
+				8756B26399E4876F07C7FDAA /* Pods_Sakura_Sushi_Bar_App_Sakura_Sushi_Bar_AppUITests.framework */,
+				B4169B194714D663A4F232F6 /* Pods_Sakura_Sushi_Bar_AppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -209,9 +249,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0346181C2813FF5F00BCF16F /* Build configuration list for PBXNativeTarget "Sakura Sushi Bar App" */;
 			buildPhases = (
+				DDE5581696E28C63E26DF9DD /* [CP] Check Pods Manifest.lock */,
 				034617EE2813FE8100BCF16F /* Sources */,
 				034617EF2813FE8100BCF16F /* Frameworks */,
 				034617F02813FE8100BCF16F /* Resources */,
+				5A77DE9FD14593912D1649F4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -226,6 +268,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0346181F2813FF5F00BCF16F /* Build configuration list for PBXNativeTarget "Sakura Sushi Bar AppTests" */;
 			buildPhases = (
+				029D7358709092D251435148 /* [CP] Check Pods Manifest.lock */,
 				034618042813FF5F00BCF16F /* Sources */,
 				034618052813FF5F00BCF16F /* Frameworks */,
 				034618062813FF5F00BCF16F /* Resources */,
@@ -244,9 +287,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 034618222813FF5F00BCF16F /* Build configuration list for PBXNativeTarget "Sakura Sushi Bar AppUITests" */;
 			buildPhases = (
+				2717E7E7AF6E2FE00522A3A1 /* [CP] Check Pods Manifest.lock */,
 				0346180E2813FF5F00BCF16F /* Sources */,
 				0346180F2813FF5F00BCF16F /* Frameworks */,
 				034618102813FF5F00BCF16F /* Resources */,
+				185047964C0EBE505AF7D92E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -367,6 +412,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		029D7358709092D251435148 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sakura Sushi Bar AppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		185047964C0EBE505AF7D92E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sakura Sushi Bar App-Sakura Sushi Bar AppUITests/Pods-Sakura Sushi Bar App-Sakura Sushi Bar AppUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sakura Sushi Bar App-Sakura Sushi Bar AppUITests/Pods-Sakura Sushi Bar App-Sakura Sushi Bar AppUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sakura Sushi Bar App-Sakura Sushi Bar AppUITests/Pods-Sakura Sushi Bar App-Sakura Sushi Bar AppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2717E7E7AF6E2FE00522A3A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sakura Sushi Bar App-Sakura Sushi Bar AppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A77DE9FD14593912D1649F4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sakura Sushi Bar App/Pods-Sakura Sushi Bar App-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sakura Sushi Bar App/Pods-Sakura Sushi Bar App-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sakura Sushi Bar App/Pods-Sakura Sushi Bar App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDE5581696E28C63E26DF9DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sakura Sushi Bar App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		034617EE2813FE8100BCF16F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -486,7 +634,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.6;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -540,7 +688,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.6;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -552,6 +700,7 @@
 		};
 		0346181D2813FF5F00BCF16F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B2FFC165599BBB65F1B3C7F /* Pods-Sakura Sushi Bar App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -580,6 +729,7 @@
 		};
 		0346181E2813FF5F00BCF16F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27787A9CD141889028037FB1 /* Pods-Sakura Sushi Bar App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -608,6 +758,7 @@
 		};
 		034618202813FF5F00BCF16F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9259C178E81B65C16D6F14F8 /* Pods-Sakura Sushi Bar AppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -628,6 +779,7 @@
 		};
 		034618212813FF5F00BCF16F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EBBB8C1750816CBAED71B95 /* Pods-Sakura Sushi Bar AppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -648,6 +800,7 @@
 		};
 		034618232813FF5F00BCF16F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A13128A2980D42857B20666 /* Pods-Sakura Sushi Bar App-Sakura Sushi Bar AppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -666,6 +819,7 @@
 		};
 		034618242813FF5F00BCF16F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A811DBCA15AB06614CAD7665 /* Pods-Sakura Sushi Bar App-Sakura Sushi Bar AppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
