@@ -22,6 +22,9 @@
 		031289EC2829294800FDA4A4 /* Sush1.png in Resources */ = {isa = PBXBuildFile; fileRef = 031289E52829294700FDA4A4 /* Sush1.png */; };
 		031289ED2829294800FDA4A4 /* Sush1.png in Resources */ = {isa = PBXBuildFile; fileRef = 031289E52829294700FDA4A4 /* Sush1.png */; };
 		031289EE2829294800FDA4A4 /* Sush1.png in Resources */ = {isa = PBXBuildFile; fileRef = 031289E52829294700FDA4A4 /* Sush1.png */; };
+		031289F028295C3500FDA4A4 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031289EF28295C3200FDA4A4 /* MapViewController.swift */; };
+		031289F128295C3600FDA4A4 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031289EF28295C3200FDA4A4 /* MapViewController.swift */; };
+		031289F228295C3600FDA4A4 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031289EF28295C3200FDA4A4 /* MapViewController.swift */; };
 		034617F62813FE8200BCF16F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034617F52813FE8200BCF16F /* AppDelegate.swift */; };
 		034617F82813FE8300BCF16F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034617F72813FE8300BCF16F /* SceneDelegate.swift */; };
 		034617FA2813FE8300BCF16F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034617F92813FE8300BCF16F /* ViewController.swift */; };
@@ -83,6 +86,7 @@
 		031289E32829294600FDA4A4 /* Sush2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sush2.png; sourceTree = "<group>"; };
 		031289E42829294700FDA4A4 /* Sush3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sush3.png; sourceTree = "<group>"; };
 		031289E52829294700FDA4A4 /* Sush1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sush1.png; sourceTree = "<group>"; };
+		031289EF28295C3200FDA4A4 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		034617F22813FE8200BCF16F /* Sakura Sushi Bar App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sakura Sushi Bar App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		034617F52813FE8200BCF16F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		034617F72813FE8300BCF16F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -156,6 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				034617F52813FE8200BCF16F /* AppDelegate.swift */,
+				031289EF28295C3200FDA4A4 /* MapViewController.swift */,
 				034617F72813FE8300BCF16F /* SceneDelegate.swift */,
 				034617F92813FE8300BCF16F /* ViewController.swift */,
 				034617FB2813FE8400BCF16F /* Main.storyboard */,
@@ -370,6 +375,7 @@
 				034617FA2813FE8300BCF16F /* ViewController.swift in Sources */,
 				034617F62813FE8200BCF16F /* AppDelegate.swift in Sources */,
 				034617F82813FE8300BCF16F /* SceneDelegate.swift in Sources */,
+				031289F028295C3500FDA4A4 /* MapViewController.swift in Sources */,
 				031289E02829248A00FDA4A4 /* MenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -379,6 +385,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0346180D2813FF5F00BCF16F /* Sakura_Sushi_Bar_AppTests.swift in Sources */,
+				031289F128295C3600FDA4A4 /* MapViewController.swift in Sources */,
 				031289E12829248A00FDA4A4 /* MenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -390,6 +397,7 @@
 				034618192813FF5F00BCF16F /* Sakura_Sushi_Bar_AppUITestsLaunchTests.swift in Sources */,
 				031289E22829248A00FDA4A4 /* MenuViewController.swift in Sources */,
 				034618172813FF5F00BCF16F /* Sakura_Sushi_Bar_AppUITests.swift in Sources */,
+				031289F228295C3600FDA4A4 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

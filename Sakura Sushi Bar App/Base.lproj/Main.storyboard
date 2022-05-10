@@ -463,10 +463,10 @@
             </objects>
             <point key="canvasLocation" x="927.536231884058" y="51.5625"/>
         </scene>
-        <!--View Controller-->
+        <!--Map View Controller-->
         <scene sceneID="Z6U-aT-PBg">
             <objects>
-                <viewController id="vHl-uM-FCF" sceneMemberID="viewController">
+                <viewController id="vHl-uM-FCF" customClass="MapViewController" customModule="Sakura_Sushi_Bar_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2X5-Wf-lJH">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
