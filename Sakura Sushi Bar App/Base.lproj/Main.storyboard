@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="wPN-G8-9ek">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -239,8 +240,8 @@
                                                                         <rect key="frame" x="-30" y="-50" width="214" height="240"/>
                                                                     </imageView>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CALIFORNIA ROLL" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kT8-js-eMY">
-                                                                        <rect key="frame" x="170" y="20" width="174" height="42.5"/>
-                                                                        <fontDescription key="fontDescription" name="SixCaps" family="Six Caps" pointSize="32"/>
+                                                                        <rect key="frame" x="170" y="20" width="174" height="24"/>
+                                                                        <fontDescription key="fontDescription" name="SixCaps" family="Six Caps" pointSize="18"/>
                                                                         <nil key="textColor"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
@@ -248,7 +249,7 @@
                                                                         <rect key="frame" x="165" y="50" width="179" height="80"/>
                                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                         <color key="textColor" systemColor="labelColor"/>
-                                                                        <fontDescription key="fontDescription" name="SixCaps" family="Six Caps" pointSize="16"/>
+                                                                        <fontDescription key="fontDescription" name="SixCaps" family="Six Caps" pointSize="14"/>
                                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                                     </textView>
                                                                 </subviews>
@@ -283,12 +284,12 @@
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="F5d-IA-RN0">
                                                                 <rect key="frame" x="30" y="30" width="354" height="140"/>
                                                                 <subviews>
-                                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Sush2.png" translatesAutoresizingMaskIntoConstraints="NO" id="emd-c5-WSM">
+                                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Sush3.png" translatesAutoresizingMaskIntoConstraints="NO" id="ybp-SS-tNy">
                                                                         <rect key="frame" x="-30" y="-50" width="214" height="240"/>
                                                                     </imageView>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CRAB ROLL" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y1w-NW-xyb">
-                                                                        <rect key="frame" x="170" y="20" width="174" height="42.5"/>
-                                                                        <fontDescription key="fontDescription" name="SixCaps" family="Six Caps" pointSize="32"/>
+                                                                        <rect key="frame" x="170" y="20" width="174" height="24"/>
+                                                                        <fontDescription key="fontDescription" name="SixCaps" family="Six Caps" pointSize="18"/>
                                                                         <nil key="textColor"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
@@ -296,23 +297,23 @@
                                                                         <rect key="frame" x="165" y="50" width="179" height="80"/>
                                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                         <color key="textColor" systemColor="labelColor"/>
-                                                                        <fontDescription key="fontDescription" name="SixCaps" family="Six Caps" pointSize="16"/>
+                                                                        <fontDescription key="fontDescription" name="SixCaps" family="Six Caps" pointSize="14"/>
                                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                                     </textView>
                                                                 </subviews>
                                                                 <color key="backgroundColor" red="0.94901960780000005" green="0.87450980389999999" blue="0.87450980389999999" alpha="1" colorSpace="calibratedRGB"/>
                                                                 <constraints>
+                                                                    <constraint firstAttribute="bottom" secondItem="ybp-SS-tNy" secondAttribute="bottom" constant="-50" id="258-NE-lfH"/>
+                                                                    <constraint firstAttribute="trailing" secondItem="ybp-SS-tNy" secondAttribute="trailing" constant="170" id="2aW-e4-krz"/>
                                                                     <constraint firstAttribute="trailing" secondItem="Y1w-NW-xyb" secondAttribute="trailing" constant="10" id="8dl-Rp-8q5"/>
                                                                     <constraint firstItem="NPV-1l-4gs" firstAttribute="leading" secondItem="F5d-IA-RN0" secondAttribute="leading" constant="165" id="Axn-h1-4et"/>
                                                                     <constraint firstItem="Y1w-NW-xyb" firstAttribute="top" secondItem="F5d-IA-RN0" secondAttribute="top" constant="20" id="F9f-FM-9IG"/>
                                                                     <constraint firstAttribute="bottom" secondItem="NPV-1l-4gs" secondAttribute="bottom" constant="10" id="JNb-9s-zjK"/>
-                                                                    <constraint firstItem="emd-c5-WSM" firstAttribute="top" secondItem="F5d-IA-RN0" secondAttribute="top" constant="-50" id="LiJ-uK-mpS"/>
                                                                     <constraint firstItem="NPV-1l-4gs" firstAttribute="top" secondItem="F5d-IA-RN0" secondAttribute="top" constant="50" id="Qmk-14-PIa"/>
-                                                                    <constraint firstAttribute="bottom" secondItem="emd-c5-WSM" secondAttribute="bottom" constant="-50" id="Tbd-nc-Czw"/>
-                                                                    <constraint firstItem="emd-c5-WSM" firstAttribute="leading" secondItem="F5d-IA-RN0" secondAttribute="leading" constant="-30" id="WeT-wD-dDh"/>
                                                                     <constraint firstItem="Y1w-NW-xyb" firstAttribute="leading" secondItem="F5d-IA-RN0" secondAttribute="leading" constant="170" id="b7s-Dl-vgU"/>
-                                                                    <constraint firstAttribute="trailing" secondItem="emd-c5-WSM" secondAttribute="trailing" constant="170" id="gd9-Mi-30v"/>
                                                                     <constraint firstAttribute="trailing" secondItem="NPV-1l-4gs" secondAttribute="trailing" constant="10" id="nr3-YP-GLu"/>
+                                                                    <constraint firstItem="ybp-SS-tNy" firstAttribute="leading" secondItem="F5d-IA-RN0" secondAttribute="leading" constant="-30" id="sjp-6y-ueh"/>
+                                                                    <constraint firstItem="ybp-SS-tNy" firstAttribute="top" secondItem="F5d-IA-RN0" secondAttribute="top" constant="-50" id="vg5-dq-gm7"/>
                                                                 </constraints>
                                                             </view>
                                                         </subviews>
@@ -331,12 +332,12 @@
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FSs-us-CsT">
                                                                 <rect key="frame" x="30" y="30" width="354" height="140"/>
                                                                 <subviews>
-                                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Sush3.png" translatesAutoresizingMaskIntoConstraints="NO" id="sDB-aB-d8v">
+                                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Sush1.png" translatesAutoresizingMaskIntoConstraints="NO" id="sDB-aB-d8v">
                                                                         <rect key="frame" x="-30" y="-50" width="214" height="240"/>
                                                                     </imageView>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SPECIAL ROLL" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rtZ-CF-ZV2">
-                                                                        <rect key="frame" x="170" y="20" width="174" height="42.5"/>
-                                                                        <fontDescription key="fontDescription" name="SixCaps" family="Six Caps" pointSize="32"/>
+                                                                        <rect key="frame" x="170" y="20" width="174" height="24"/>
+                                                                        <fontDescription key="fontDescription" name="SixCaps" family="Six Caps" pointSize="18"/>
                                                                         <nil key="textColor"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
@@ -344,7 +345,7 @@
                                                                         <rect key="frame" x="165" y="50" width="179" height="80"/>
                                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                         <color key="textColor" systemColor="labelColor"/>
-                                                                        <fontDescription key="fontDescription" name="SixCaps" family="Six Caps" pointSize="16"/>
+                                                                        <fontDescription key="fontDescription" name="SixCaps" family="Six Caps" pointSize="14"/>
                                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                                     </textView>
                                                                 </subviews>
@@ -500,7 +501,6 @@
         <image name="Home Icon.png" width="36" height="31"/>
         <image name="Location Icon.png" width="24" height="34"/>
         <image name="Sush1.png" width="183" height="187"/>
-        <image name="Sush2.png" width="166" height="169"/>
         <image name="Sush3.png" width="182" height="182"/>
         <image name="homeFlower.png" width="259" height="277"/>
         <image name="logo-no-text.png" width="61" height="76"/>

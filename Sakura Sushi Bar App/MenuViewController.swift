@@ -35,45 +35,48 @@ class MenuViewController: UIViewController, UIScrollViewDelegate {
 
     }
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
+        // Following code is used to animate menu items depending on the current Y offset of the scrollview.
+        // When the Y offset reaches the speicified value, the view is transformed to 0.1 of its x and y scale.
         
-        // Animation for first menu item
-        if menuScrollView.contentOffset.y >= 100.0 {
-            // Your animation code goes HERE... //
-            UIView.animate(withDuration: 1, delay: 0, options: [], animations: {
+        // Shrinks first menu item view (to 0.1 of original size) when scroll offset is greater than 130
+        if menuScrollView.contentOffset.y >= 130.0 {
+            UIView.animate(withDuration: 0.75, delay: 0, options: [], animations: {
                 self.itemOne.transform = CGAffineTransform(scaleX: 0.1, y: 0.1)
                       })
         }
-        if menuScrollView.contentOffset.y < 100.0 {
-            // Your animation code goes HERE... //
-            UIView.animate(withDuration: 1, delay: 0, options: [], animations: {
+        
+        // Re-expands first menu item view when scroll offset is less than 130
+        
+        if menuScrollView.contentOffset.y < 130.0 {
+            UIView.animate(withDuration: 0.75, delay: 0, options: [], animations: {
                 self.itemOne.transform = CGAffineTransform(scaleX: 1, y: 1)
                       })
         }
         
-        // Animation for second menu item
-        if menuScrollView.contentOffset.y >= 250.0 {
-            // Your animation code goes HERE... //
-            UIView.animate(withDuration: 1, delay: 0, options: [], animations: {
+        // Shrinks second menu item view (to 0.1 of original size) when scroll offset is greater than 315
+        if menuScrollView.contentOffset.y >= 315.0 {
+            UIView.animate(withDuration: 0.75, delay: 0, options: [], animations: {
                 self.itemTwo.transform = CGAffineTransform(scaleX: 0.1, y: 0.1)
                       })
         }
-        if menuScrollView.contentOffset.y < 250.0 {
-            // Your animation code goes HERE... //
-            UIView.animate(withDuration: 1, delay: 0, options: [], animations: {
+        
+        // Re-expands second menu item view when scroll offset is less than 315
+        if menuScrollView.contentOffset.y < 315.0 {
+            UIView.animate(withDuration: 0.75, delay: 0, options: [], animations: {
                 self.itemTwo.transform = CGAffineTransform(scaleX: 1, y: 1)
                       })
         }
         
-        // Animation for third menu item
-        if menuScrollView.contentOffset.y >= 500.0 {
-            // Your animation code goes HERE... //
-            UIView.animate(withDuration: 1, delay: 0, options: [], animations: {
+        // Shrinks third menu item view (to 0.1 of original size) when scroll offset is greater than 495
+        if menuScrollView.contentOffset.y >= 495.0 {
+            UIView.animate(withDuration: 0.75, delay: 0, options: [], animations: {
                 self.itemThree.transform = CGAffineTransform(scaleX: 0.1, y: 0.1)
                       })
         }
-        if menuScrollView.contentOffset.y < 500.0 {
-            // Your animation code goes HERE... //
-            UIView.animate(withDuration: 1, delay: 0, options: [], animations: {
+        
+        // Re-expands third menu item view when scroll offset is less than 495
+        if menuScrollView.contentOffset.y < 495.0 {
+            UIView.animate(withDuration: 0.5, delay: 0, options: [], animations: {
                 self.itemThree.transform = CGAffineTransform(scaleX: 1, y: 1)
                       })
         }
