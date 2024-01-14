@@ -6,17 +6,19 @@
 //
 
 import UIKit
+import CoreData
 
+class ViewController: UIViewController, UIScrollViewDelegate {
+    
+//    var container: PersistentContainer!
+    let coreDataManager = CoreDataManager.shared
 
-class ViewController: UIViewController {
-    
-    
     @IBOutlet var mainView: UIView!
-    
-    @IBOutlet weak var scrollViewHome: UIScrollView!
     
     @IBOutlet weak var flowerImageHome: UIImageView!
     
+    @IBOutlet weak var scrollViewHome: UIScrollView!
+    @IBOutlet weak var mainImage: UIView!
     // Gradient layer and list which will contain the colours.
     let gradient = CAGradientLayer()
     var gradientSet = [[CGColor]]()
@@ -32,9 +34,9 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        //flowerImageHome.image = flowerImageHome.image?.withRenderingMode(.alwaysTemplate)
-        //flowerImageHome.tintColor = UIColor.gray
         
+        // Set up the scroll view delegate
+        scrollViewHome.delegate = self
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -83,6 +85,35 @@ class ViewController: UIViewController {
         gradient.add(gradientChangeAnimation, forKey: "colorChange")
     }
 
+    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+            // Get the current Y offset of the scroll view
+            let yOffset = scrollView.contentOffset.y
+            let originalCenterY = scrollViewHome.center.y
+
+            // Check if the scroll Y axis is greater than 130
+            if yOffset > 100 {
+                // Calculate the new Y position for the scroll view
+                let newYPosition = max(0, -yOffset)
+
+                // Adjust the frame or center position of the scroll view
+                
+                
+                // Alternatively, you can use scrollViewHome.center.y = newYPosition
+
+                // Calculate the scale factor based on the scroll position
+                let scaleFactor = max(1 - (yOffset - 100) / 100, 0.5)
+
+                // Apply the transform to the main image
+                mainImage.transform = CGAffineTransform(scaleX: scaleFactor, y: scaleFactor).translatedBy(x: 0, y: 0)
+                mainImage.frame.origin.y = newYPosition
+                scrollViewHome.frame.origin.y = mainImage.frame.height
+            } else {
+                // Reset the transform and position when the scroll Y axis is less than or equal to 130
+                mainImage.transform = .identity
+                scrollViewHome.center.y = originalCenterY
+            }
+        }
+
 }
 
 extension ViewController: CAAnimationDelegate {
@@ -93,3 +124,4 @@ extension ViewController: CAAnimationDelegate {
         }
     }
 }
+
