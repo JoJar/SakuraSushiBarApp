@@ -10,18 +10,6 @@
 		031289D82821C4A600FDA4A4 /* logo-no-text.png in Resources */ = {isa = PBXBuildFile; fileRef = 031289D72821C4A400FDA4A4 /* logo-no-text.png */; };
 		031289D92821C4A600FDA4A4 /* logo-no-text.png in Resources */ = {isa = PBXBuildFile; fileRef = 031289D72821C4A400FDA4A4 /* logo-no-text.png */; };
 		031289DA2821C4A600FDA4A4 /* logo-no-text.png in Resources */ = {isa = PBXBuildFile; fileRef = 031289D72821C4A400FDA4A4 /* logo-no-text.png */; };
-		031289E02829248A00FDA4A4 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031289DF2829248A00FDA4A4 /* MenuViewController.swift */; };
-		031289E12829248A00FDA4A4 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031289DF2829248A00FDA4A4 /* MenuViewController.swift */; };
-		031289E22829248A00FDA4A4 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031289DF2829248A00FDA4A4 /* MenuViewController.swift */; };
-		031289E62829294800FDA4A4 /* Sush2.png in Resources */ = {isa = PBXBuildFile; fileRef = 031289E32829294600FDA4A4 /* Sush2.png */; };
-		031289E72829294800FDA4A4 /* Sush2.png in Resources */ = {isa = PBXBuildFile; fileRef = 031289E32829294600FDA4A4 /* Sush2.png */; };
-		031289E82829294800FDA4A4 /* Sush2.png in Resources */ = {isa = PBXBuildFile; fileRef = 031289E32829294600FDA4A4 /* Sush2.png */; };
-		031289E92829294800FDA4A4 /* Sush3.png in Resources */ = {isa = PBXBuildFile; fileRef = 031289E42829294700FDA4A4 /* Sush3.png */; };
-		031289EA2829294800FDA4A4 /* Sush3.png in Resources */ = {isa = PBXBuildFile; fileRef = 031289E42829294700FDA4A4 /* Sush3.png */; };
-		031289EB2829294800FDA4A4 /* Sush3.png in Resources */ = {isa = PBXBuildFile; fileRef = 031289E42829294700FDA4A4 /* Sush3.png */; };
-		031289EC2829294800FDA4A4 /* Sush1.png in Resources */ = {isa = PBXBuildFile; fileRef = 031289E52829294700FDA4A4 /* Sush1.png */; };
-		031289ED2829294800FDA4A4 /* Sush1.png in Resources */ = {isa = PBXBuildFile; fileRef = 031289E52829294700FDA4A4 /* Sush1.png */; };
-		031289EE2829294800FDA4A4 /* Sush1.png in Resources */ = {isa = PBXBuildFile; fileRef = 031289E52829294700FDA4A4 /* Sush1.png */; };
 		031289F028295C3500FDA4A4 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031289EF28295C3200FDA4A4 /* MapViewController.swift */; };
 		031289F128295C3600FDA4A4 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031289EF28295C3200FDA4A4 /* MapViewController.swift */; };
 		031289F228295C3600FDA4A4 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031289EF28295C3200FDA4A4 /* MapViewController.swift */; };
@@ -34,9 +22,6 @@
 		0346180D2813FF5F00BCF16F /* Sakura_Sushi_Bar_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0346180C2813FF5F00BCF16F /* Sakura_Sushi_Bar_AppTests.swift */; };
 		034618172813FF5F00BCF16F /* Sakura_Sushi_Bar_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034618162813FF5F00BCF16F /* Sakura_Sushi_Bar_AppUITests.swift */; };
 		034618192813FF5F00BCF16F /* Sakura_Sushi_Bar_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034618182813FF5F00BCF16F /* Sakura_Sushi_Bar_AppUITestsLaunchTests.swift */; };
-		034618262814058500BCF16F /* logoWithText.png in Resources */ = {isa = PBXBuildFile; fileRef = 034618252814058400BCF16F /* logoWithText.png */; };
-		034618272814058500BCF16F /* logoWithText.png in Resources */ = {isa = PBXBuildFile; fileRef = 034618252814058400BCF16F /* logoWithText.png */; };
-		034618282814058500BCF16F /* logoWithText.png in Resources */ = {isa = PBXBuildFile; fileRef = 034618252814058400BCF16F /* logoWithText.png */; };
 		0346182A2814088E00BCF16F /* PT_Serif in Resources */ = {isa = PBXBuildFile; fileRef = 034618292814088D00BCF16F /* PT_Serif */; };
 		0346182B2814088E00BCF16F /* PT_Serif in Resources */ = {isa = PBXBuildFile; fileRef = 034618292814088D00BCF16F /* PT_Serif */; };
 		0346182C2814088E00BCF16F /* PT_Serif in Resources */ = {isa = PBXBuildFile; fileRef = 034618292814088D00BCF16F /* PT_Serif */; };
@@ -55,15 +40,22 @@
 		034618422814228500BCF16F /* other.png in Resources */ = {isa = PBXBuildFile; fileRef = 034618412814228400BCF16F /* other.png */; };
 		034618432814228500BCF16F /* other.png in Resources */ = {isa = PBXBuildFile; fileRef = 034618412814228400BCF16F /* other.png */; };
 		034618442814228500BCF16F /* other.png in Resources */ = {isa = PBXBuildFile; fileRef = 034618412814228400BCF16F /* other.png */; };
-		03461846281B4E7200BCF16F /* Six_Caps in Resources */ = {isa = PBXBuildFile; fileRef = 03461845281B4E7100BCF16F /* Six_Caps */; };
-		03461847281B4E7200BCF16F /* Six_Caps in Resources */ = {isa = PBXBuildFile; fileRef = 03461845281B4E7100BCF16F /* Six_Caps */; };
-		03461848281B4E7200BCF16F /* Six_Caps in Resources */ = {isa = PBXBuildFile; fileRef = 03461845281B4E7100BCF16F /* Six_Caps */; };
-		0346184A281B4E7A00BCF16F /* Titillium_Web in Resources */ = {isa = PBXBuildFile; fileRef = 03461849281B4E7900BCF16F /* Titillium_Web */; };
-		0346184B281B4E7A00BCF16F /* Titillium_Web in Resources */ = {isa = PBXBuildFile; fileRef = 03461849281B4E7900BCF16F /* Titillium_Web */; };
-		0346184C281B4E7A00BCF16F /* Titillium_Web in Resources */ = {isa = PBXBuildFile; fileRef = 03461849281B4E7900BCF16F /* Titillium_Web */; };
-		4872DAB091342A0E83864E04 /* Pods_Sakura_Sushi_Bar_App_Sakura_Sushi_Bar_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8756B26399E4876F07C7FDAA /* Pods_Sakura_Sushi_Bar_App_Sakura_Sushi_Bar_AppUITests.framework */; };
-		96A8196EEE53D5A5C0EEDAC3 /* Pods_Sakura_Sushi_Bar_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4169B194714D663A4F232F6 /* Pods_Sakura_Sushi_Bar_AppTests.framework */; };
-		EE4DC15E5C2D080133244799 /* Pods_Sakura_Sushi_Bar_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C9463942AEDE5C1C852C4F7 /* Pods_Sakura_Sushi_Bar_App.framework */; };
+		35538BDF2B4A1DCE008108E4 /* logoWithText.png in Resources */ = {isa = PBXBuildFile; fileRef = 35538BDE2B4A1DCD008108E4 /* logoWithText.png */; };
+		35538BE12B4A226B008108E4 /* Sush1.png in Resources */ = {isa = PBXBuildFile; fileRef = 35538BE02B4A226B008108E4 /* Sush1.png */; };
+		35538BE42B4A260A008108E4 /* Sush3.png in Resources */ = {isa = PBXBuildFile; fileRef = 35538BE22B4A260A008108E4 /* Sush3.png */; };
+		35538BE52B4A260A008108E4 /* Sush2.png in Resources */ = {isa = PBXBuildFile; fileRef = 35538BE32B4A260A008108E4 /* Sush2.png */; };
+		35538BE72B4A27F6008108E4 /* Sush4.png in Resources */ = {isa = PBXBuildFile; fileRef = 35538BE62B4A27F6008108E4 /* Sush4.png */; };
+		35538BE92B4A2DAA008108E4 /* LaunchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35538BE82B4A2DAA008108E4 /* LaunchController.swift */; };
+		3556C7DE2B4B1FC100B0A2D9 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3556C7DD2B4B1FC100B0A2D9 /* MenuController.swift */; };
+		3556C7E02B4B7EDE00B0A2D9 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3556C7DF2B4B7EDE00B0A2D9 /* MenuViewController.swift */; };
+		356ED8492B5431E8002E41F7 /* basket-clear.png in Resources */ = {isa = PBXBuildFile; fileRef = 356ED8482B5431E8002E41F7 /* basket-clear.png */; };
+		357B1D902B50AB10008B1648 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 357B1D8E2B50AB10008B1648 /* Model.xcdatamodeld */; };
+		35CA46892B4E1236004F0ED4 /* BasketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CA46882B4E1236004F0ED4 /* BasketViewController.swift */; };
+		35CA468E2B4E144E004F0ED4 /* BasketContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CA468D2B4E144E004F0ED4 /* BasketContext.swift */; };
+		35D372D92B4ACFE5003CAEB4 /* MenuSchema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D372D82B4ACFE5003CAEB4 /* MenuSchema.swift */; };
+		5DB41C4175DB66A5C331C6BA /* Pods_Sakura_Sushi_Bar_App_Sakura_Sushi_Bar_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45C3D160D146480276D828B3 /* Pods_Sakura_Sushi_Bar_App_Sakura_Sushi_Bar_AppUITests.framework */; };
+		662636EA42B75B95672E6E81 /* Pods_Sakura_Sushi_Bar_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9A4D2537BB2B0B063F36E33 /* Pods_Sakura_Sushi_Bar_AppTests.framework */; };
+		FC9E0BFD292D8EF452C9F3DB /* Pods_Sakura_Sushi_Bar_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 414A3254BC1378C2838ADFF0 /* Pods_Sakura_Sushi_Bar_App.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,10 +77,6 @@
 
 /* Begin PBXFileReference section */
 		031289D72821C4A400FDA4A4 /* logo-no-text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-no-text.png"; sourceTree = "<group>"; };
-		031289DF2829248A00FDA4A4 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
-		031289E32829294600FDA4A4 /* Sush2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sush2.png; sourceTree = "<group>"; };
-		031289E42829294700FDA4A4 /* Sush3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sush3.png; sourceTree = "<group>"; };
-		031289E52829294700FDA4A4 /* Sush1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sush1.png; sourceTree = "<group>"; };
 		031289EF28295C3200FDA4A4 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		034617F22813FE8200BCF16F /* Sakura Sushi Bar App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sakura Sushi Bar App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		034617F52813FE8200BCF16F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -103,24 +91,34 @@
 		034618122813FF5F00BCF16F /* Sakura Sushi Bar AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sakura Sushi Bar AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		034618162813FF5F00BCF16F /* Sakura_Sushi_Bar_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sakura_Sushi_Bar_AppUITests.swift; sourceTree = "<group>"; };
 		034618182813FF5F00BCF16F /* Sakura_Sushi_Bar_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sakura_Sushi_Bar_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		034618252814058400BCF16F /* logoWithText.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logoWithText.png; path = Assets.xcassets/logoWithText.png; sourceTree = "<group>"; };
 		034618292814088D00BCF16F /* PT_Serif */ = {isa = PBXFileReference; lastKnownFileType = folder; path = PT_Serif; sourceTree = "<group>"; };
 		0346182D28140B9700BCF16F /* homeFlower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homeFlower.png; sourceTree = "<group>"; };
 		034618352814227900BCF16F /* Home Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Home Icon.png"; sourceTree = "<group>"; };
 		034618392814227D00BCF16F /* Location Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Location Icon.png"; sourceTree = "<group>"; };
 		0346183D2814228100BCF16F /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
 		034618412814228400BCF16F /* other.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = other.png; sourceTree = "<group>"; };
-		03461845281B4E7100BCF16F /* Six_Caps */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Six_Caps; sourceTree = "<group>"; };
-		03461849281B4E7900BCF16F /* Titillium_Web */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Titillium_Web; sourceTree = "<group>"; };
-		0C9463942AEDE5C1C852C4F7 /* Pods_Sakura_Sushi_Bar_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sakura_Sushi_Bar_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		27787A9CD141889028037FB1 /* Pods-Sakura Sushi Bar App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sakura Sushi Bar App.release.xcconfig"; path = "Target Support Files/Pods-Sakura Sushi Bar App/Pods-Sakura Sushi Bar App.release.xcconfig"; sourceTree = "<group>"; };
-		7A13128A2980D42857B20666 /* Pods-Sakura Sushi Bar App-Sakura Sushi Bar AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sakura Sushi Bar App-Sakura Sushi Bar AppUITests.debug.xcconfig"; path = "Target Support Files/Pods-Sakura Sushi Bar App-Sakura Sushi Bar AppUITests/Pods-Sakura Sushi Bar App-Sakura Sushi Bar AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		7B2FFC165599BBB65F1B3C7F /* Pods-Sakura Sushi Bar App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sakura Sushi Bar App.debug.xcconfig"; path = "Target Support Files/Pods-Sakura Sushi Bar App/Pods-Sakura Sushi Bar App.debug.xcconfig"; sourceTree = "<group>"; };
-		7EBBB8C1750816CBAED71B95 /* Pods-Sakura Sushi Bar AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sakura Sushi Bar AppTests.release.xcconfig"; path = "Target Support Files/Pods-Sakura Sushi Bar AppTests/Pods-Sakura Sushi Bar AppTests.release.xcconfig"; sourceTree = "<group>"; };
-		8756B26399E4876F07C7FDAA /* Pods_Sakura_Sushi_Bar_App_Sakura_Sushi_Bar_AppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sakura_Sushi_Bar_App_Sakura_Sushi_Bar_AppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9259C178E81B65C16D6F14F8 /* Pods-Sakura Sushi Bar AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sakura Sushi Bar AppTests.debug.xcconfig"; path = "Target Support Files/Pods-Sakura Sushi Bar AppTests/Pods-Sakura Sushi Bar AppTests.debug.xcconfig"; sourceTree = "<group>"; };
-		A811DBCA15AB06614CAD7665 /* Pods-Sakura Sushi Bar App-Sakura Sushi Bar AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sakura Sushi Bar App-Sakura Sushi Bar AppUITests.release.xcconfig"; path = "Target Support Files/Pods-Sakura Sushi Bar App-Sakura Sushi Bar AppUITests/Pods-Sakura Sushi Bar App-Sakura Sushi Bar AppUITests.release.xcconfig"; sourceTree = "<group>"; };
-		B4169B194714D663A4F232F6 /* Pods_Sakura_Sushi_Bar_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sakura_Sushi_Bar_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1633AED99206A06A688BA3CF /* Pods-Sakura Sushi Bar App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sakura Sushi Bar App.release.xcconfig"; path = "Target Support Files/Pods-Sakura Sushi Bar App/Pods-Sakura Sushi Bar App.release.xcconfig"; sourceTree = "<group>"; };
+		35538BDE2B4A1DCD008108E4 /* logoWithText.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoWithText.png; sourceTree = "<group>"; };
+		35538BE02B4A226B008108E4 /* Sush1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sush1.png; sourceTree = "<group>"; };
+		35538BE22B4A260A008108E4 /* Sush3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sush3.png; sourceTree = "<group>"; };
+		35538BE32B4A260A008108E4 /* Sush2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sush2.png; sourceTree = "<group>"; };
+		35538BE62B4A27F6008108E4 /* Sush4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sush4.png; sourceTree = "<group>"; };
+		35538BE82B4A2DAA008108E4 /* LaunchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchController.swift; sourceTree = "<group>"; };
+		3556C7DD2B4B1FC100B0A2D9 /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		3556C7DF2B4B7EDE00B0A2D9 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		356ED8482B5431E8002E41F7 /* basket-clear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "basket-clear.png"; sourceTree = "<group>"; };
+		357B1D8F2B50AB10008B1648 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		35CA46882B4E1236004F0ED4 /* BasketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketViewController.swift; sourceTree = "<group>"; };
+		35CA468D2B4E144E004F0ED4 /* BasketContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketContext.swift; sourceTree = "<group>"; };
+		35D372D82B4ACFE5003CAEB4 /* MenuSchema.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuSchema.swift; sourceTree = "<group>"; };
+		414A3254BC1378C2838ADFF0 /* Pods_Sakura_Sushi_Bar_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sakura_Sushi_Bar_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45C3D160D146480276D828B3 /* Pods_Sakura_Sushi_Bar_App_Sakura_Sushi_Bar_AppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sakura_Sushi_Bar_App_Sakura_Sushi_Bar_AppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7201E5F6261346873ABAD76F /* Pods-Sakura Sushi Bar App-Sakura Sushi Bar AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sakura Sushi Bar App-Sakura Sushi Bar AppUITests.debug.xcconfig"; path = "Target Support Files/Pods-Sakura Sushi Bar App-Sakura Sushi Bar AppUITests/Pods-Sakura Sushi Bar App-Sakura Sushi Bar AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		722844CC2F3361A48462ED14 /* Pods-Sakura Sushi Bar AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sakura Sushi Bar AppTests.debug.xcconfig"; path = "Target Support Files/Pods-Sakura Sushi Bar AppTests/Pods-Sakura Sushi Bar AppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		80728DA488AEBDAE2A3B8AC1 /* Pods-Sakura Sushi Bar AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sakura Sushi Bar AppTests.release.xcconfig"; path = "Target Support Files/Pods-Sakura Sushi Bar AppTests/Pods-Sakura Sushi Bar AppTests.release.xcconfig"; sourceTree = "<group>"; };
+		AB45E371E33DB667280516A8 /* Pods-Sakura Sushi Bar App-Sakura Sushi Bar AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sakura Sushi Bar App-Sakura Sushi Bar AppUITests.release.xcconfig"; path = "Target Support Files/Pods-Sakura Sushi Bar App-Sakura Sushi Bar AppUITests/Pods-Sakura Sushi Bar App-Sakura Sushi Bar AppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C6DA8978D1F866824E77B8BB /* Pods-Sakura Sushi Bar App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sakura Sushi Bar App.debug.xcconfig"; path = "Target Support Files/Pods-Sakura Sushi Bar App/Pods-Sakura Sushi Bar App.debug.xcconfig"; sourceTree = "<group>"; };
+		E9A4D2537BB2B0B063F36E33 /* Pods_Sakura_Sushi_Bar_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sakura_Sushi_Bar_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,7 +126,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE4DC15E5C2D080133244799 /* Pods_Sakura_Sushi_Bar_App.framework in Frameworks */,
+				FC9E0BFD292D8EF452C9F3DB /* Pods_Sakura_Sushi_Bar_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,7 +134,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96A8196EEE53D5A5C0EEDAC3 /* Pods_Sakura_Sushi_Bar_AppTests.framework in Frameworks */,
+				662636EA42B75B95672E6E81 /* Pods_Sakura_Sushi_Bar_AppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,7 +142,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4872DAB091342A0E83864E04 /* Pods_Sakura_Sushi_Bar_App_Sakura_Sushi_Bar_AppUITests.framework in Frameworks */,
+				5DB41C4175DB66A5C331C6BA /* Pods_Sakura_Sushi_Bar_App_Sakura_Sushi_Bar_AppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,8 +156,8 @@
 				0346180B2813FF5F00BCF16F /* Sakura Sushi Bar AppTests */,
 				034618152813FF5F00BCF16F /* Sakura Sushi Bar AppUITests */,
 				034617F32813FE8200BCF16F /* Products */,
-				66815E9AF5F7042D6FDEC611 /* Pods */,
-				A02BD517862ACAA9C886999B /* Frameworks */,
+				9458B609121568EFD8973612 /* Pods */,
+				DEEB775975A9A4BC74545DA4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -181,23 +179,29 @@
 				034617F72813FE8300BCF16F /* SceneDelegate.swift */,
 				034617F92813FE8300BCF16F /* ViewController.swift */,
 				034617FB2813FE8400BCF16F /* Main.storyboard */,
+				35CA46882B4E1236004F0ED4 /* BasketViewController.swift */,
+				35538BE62B4A27F6008108E4 /* Sush4.png */,
+				357B1D8E2B50AB10008B1648 /* Model.xcdatamodeld */,
+				35538BE32B4A260A008108E4 /* Sush2.png */,
+				35538BE22B4A260A008108E4 /* Sush3.png */,
+				35538BE02B4A226B008108E4 /* Sush1.png */,
+				3556C7DF2B4B7EDE00B0A2D9 /* MenuViewController.swift */,
+				35CA468D2B4E144E004F0ED4 /* BasketContext.swift */,
 				0346182D28140B9700BCF16F /* homeFlower.png */,
-				031289E52829294700FDA4A4 /* Sush1.png */,
-				031289E32829294600FDA4A4 /* Sush2.png */,
-				031289E42829294700FDA4A4 /* Sush3.png */,
 				031289D72821C4A400FDA4A4 /* logo-no-text.png */,
-				031289DF2829248A00FDA4A4 /* MenuViewController.swift */,
+				35538BDE2B4A1DCD008108E4 /* logoWithText.png */,
 				034618352814227900BCF16F /* Home Icon.png */,
-				03461845281B4E7100BCF16F /* Six_Caps */,
 				034618392814227D00BCF16F /* Location Icon.png */,
 				0346183D2814228100BCF16F /* menu.png */,
 				034618412814228400BCF16F /* other.png */,
-				03461849281B4E7900BCF16F /* Titillium_Web */,
-				034618252814058400BCF16F /* logoWithText.png */,
 				034618292814088D00BCF16F /* PT_Serif */,
 				034617FE2813FF4E00BCF16F /* Assets.xcassets */,
+				356ED8482B5431E8002E41F7 /* basket-clear.png */,
 				034618002813FF4F00BCF16F /* LaunchScreen.storyboard */,
+				35538BE82B4A2DAA008108E4 /* LaunchController.swift */,
 				034618032813FF4F00BCF16F /* Info.plist */,
+				35D372D82B4ACFE5003CAEB4 /* MenuSchema.swift */,
+				3556C7DD2B4B1FC100B0A2D9 /* MenuController.swift */,
 			);
 			path = "Sakura Sushi Bar App";
 			sourceTree = "<group>";
@@ -219,25 +223,25 @@
 			path = "Sakura Sushi Bar AppUITests";
 			sourceTree = "<group>";
 		};
-		66815E9AF5F7042D6FDEC611 /* Pods */ = {
+		9458B609121568EFD8973612 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7B2FFC165599BBB65F1B3C7F /* Pods-Sakura Sushi Bar App.debug.xcconfig */,
-				27787A9CD141889028037FB1 /* Pods-Sakura Sushi Bar App.release.xcconfig */,
-				7A13128A2980D42857B20666 /* Pods-Sakura Sushi Bar App-Sakura Sushi Bar AppUITests.debug.xcconfig */,
-				A811DBCA15AB06614CAD7665 /* Pods-Sakura Sushi Bar App-Sakura Sushi Bar AppUITests.release.xcconfig */,
-				9259C178E81B65C16D6F14F8 /* Pods-Sakura Sushi Bar AppTests.debug.xcconfig */,
-				7EBBB8C1750816CBAED71B95 /* Pods-Sakura Sushi Bar AppTests.release.xcconfig */,
+				C6DA8978D1F866824E77B8BB /* Pods-Sakura Sushi Bar App.debug.xcconfig */,
+				1633AED99206A06A688BA3CF /* Pods-Sakura Sushi Bar App.release.xcconfig */,
+				7201E5F6261346873ABAD76F /* Pods-Sakura Sushi Bar App-Sakura Sushi Bar AppUITests.debug.xcconfig */,
+				AB45E371E33DB667280516A8 /* Pods-Sakura Sushi Bar App-Sakura Sushi Bar AppUITests.release.xcconfig */,
+				722844CC2F3361A48462ED14 /* Pods-Sakura Sushi Bar AppTests.debug.xcconfig */,
+				80728DA488AEBDAE2A3B8AC1 /* Pods-Sakura Sushi Bar AppTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		A02BD517862ACAA9C886999B /* Frameworks */ = {
+		DEEB775975A9A4BC74545DA4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0C9463942AEDE5C1C852C4F7 /* Pods_Sakura_Sushi_Bar_App.framework */,
-				8756B26399E4876F07C7FDAA /* Pods_Sakura_Sushi_Bar_App_Sakura_Sushi_Bar_AppUITests.framework */,
-				B4169B194714D663A4F232F6 /* Pods_Sakura_Sushi_Bar_AppTests.framework */,
+				414A3254BC1378C2838ADFF0 /* Pods_Sakura_Sushi_Bar_App.framework */,
+				45C3D160D146480276D828B3 /* Pods_Sakura_Sushi_Bar_App_Sakura_Sushi_Bar_AppUITests.framework */,
+				E9A4D2537BB2B0B063F36E33 /* Pods_Sakura_Sushi_Bar_AppTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -249,11 +253,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0346181C2813FF5F00BCF16F /* Build configuration list for PBXNativeTarget "Sakura Sushi Bar App" */;
 			buildPhases = (
-				DDE5581696E28C63E26DF9DD /* [CP] Check Pods Manifest.lock */,
+				2C13FBE80A26F4413D04E144 /* [CP] Check Pods Manifest.lock */,
 				034617EE2813FE8100BCF16F /* Sources */,
 				034617EF2813FE8100BCF16F /* Frameworks */,
 				034617F02813FE8100BCF16F /* Resources */,
-				5A77DE9FD14593912D1649F4 /* [CP] Copy Pods Resources */,
+				47EAC8313C124BFF9AE13314 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -268,7 +272,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0346181F2813FF5F00BCF16F /* Build configuration list for PBXNativeTarget "Sakura Sushi Bar AppTests" */;
 			buildPhases = (
-				029D7358709092D251435148 /* [CP] Check Pods Manifest.lock */,
+				A3E05BDAB7C26D6F283C6192 /* [CP] Check Pods Manifest.lock */,
 				034618042813FF5F00BCF16F /* Sources */,
 				034618052813FF5F00BCF16F /* Frameworks */,
 				034618062813FF5F00BCF16F /* Resources */,
@@ -287,11 +291,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 034618222813FF5F00BCF16F /* Build configuration list for PBXNativeTarget "Sakura Sushi Bar AppUITests" */;
 			buildPhases = (
-				2717E7E7AF6E2FE00522A3A1 /* [CP] Check Pods Manifest.lock */,
+				3B969C3FC29D078F71549446 /* [CP] Check Pods Manifest.lock */,
 				0346180E2813FF5F00BCF16F /* Sources */,
 				0346180F2813FF5F00BCF16F /* Frameworks */,
 				034618102813FF5F00BCF16F /* Resources */,
-				185047964C0EBE505AF7D92E /* [CP] Copy Pods Resources */,
+				5A7A8F91FC61403354436434 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -351,22 +355,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				031289EC2829294800FDA4A4 /* Sush1.png in Resources */,
 				034618022813FF4F00BCF16F /* LaunchScreen.storyboard in Resources */,
+				356ED8492B5431E8002E41F7 /* basket-clear.png in Resources */,
 				0346182E28140B9700BCF16F /* homeFlower.png in Resources */,
-				03461846281B4E7200BCF16F /* Six_Caps in Resources */,
+				35538BE72B4A27F6008108E4 /* Sush4.png in Resources */,
 				034618362814227900BCF16F /* Home Icon.png in Resources */,
 				031289D82821C4A600FDA4A4 /* logo-no-text.png in Resources */,
+				35538BE42B4A260A008108E4 /* Sush3.png in Resources */,
+				35538BDF2B4A1DCE008108E4 /* logoWithText.png in Resources */,
 				0346182A2814088E00BCF16F /* PT_Serif in Resources */,
-				034618262814058500BCF16F /* logoWithText.png in Resources */,
 				0346183E2814228100BCF16F /* menu.png in Resources */,
+				35538BE12B4A226B008108E4 /* Sush1.png in Resources */,
 				034617FF2813FF4E00BCF16F /* Assets.xcassets in Resources */,
 				034617FD2813FE8400BCF16F /* Main.storyboard in Resources */,
+				35538BE52B4A260A008108E4 /* Sush2.png in Resources */,
 				0346183A2814227D00BCF16F /* Location Icon.png in Resources */,
-				031289E62829294800FDA4A4 /* Sush2.png in Resources */,
 				034618422814228500BCF16F /* other.png in Resources */,
-				0346184A281B4E7A00BCF16F /* Titillium_Web in Resources */,
-				031289E92829294800FDA4A4 /* Sush3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,17 +380,11 @@
 			files = (
 				0346182B2814088E00BCF16F /* PT_Serif in Resources */,
 				0346183B2814227D00BCF16F /* Location Icon.png in Resources */,
-				031289EA2829294800FDA4A4 /* Sush3.png in Resources */,
-				03461847281B4E7200BCF16F /* Six_Caps in Resources */,
 				034618372814227900BCF16F /* Home Icon.png in Resources */,
 				0346183F2814228100BCF16F /* menu.png in Resources */,
 				0346182F28140B9700BCF16F /* homeFlower.png in Resources */,
-				031289ED2829294800FDA4A4 /* Sush1.png in Resources */,
 				031289D92821C4A600FDA4A4 /* logo-no-text.png in Resources */,
 				034618432814228500BCF16F /* other.png in Resources */,
-				034618272814058500BCF16F /* logoWithText.png in Resources */,
-				0346184B281B4E7A00BCF16F /* Titillium_Web in Resources */,
-				031289E72829294800FDA4A4 /* Sush2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,102 +394,18 @@
 			files = (
 				0346182C2814088E00BCF16F /* PT_Serif in Resources */,
 				0346183C2814227D00BCF16F /* Location Icon.png in Resources */,
-				031289EB2829294800FDA4A4 /* Sush3.png in Resources */,
-				03461848281B4E7200BCF16F /* Six_Caps in Resources */,
 				034618382814227900BCF16F /* Home Icon.png in Resources */,
 				034618402814228100BCF16F /* menu.png in Resources */,
 				0346183028140B9700BCF16F /* homeFlower.png in Resources */,
-				031289EE2829294800FDA4A4 /* Sush1.png in Resources */,
 				031289DA2821C4A600FDA4A4 /* logo-no-text.png in Resources */,
 				034618442814228500BCF16F /* other.png in Resources */,
-				034618282814058500BCF16F /* logoWithText.png in Resources */,
-				0346184C281B4E7A00BCF16F /* Titillium_Web in Resources */,
-				031289E82829294800FDA4A4 /* Sush2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		029D7358709092D251435148 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Sakura Sushi Bar AppTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		185047964C0EBE505AF7D92E /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Sakura Sushi Bar App-Sakura Sushi Bar AppUITests/Pods-Sakura Sushi Bar App-Sakura Sushi Bar AppUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Sakura Sushi Bar App-Sakura Sushi Bar AppUITests/Pods-Sakura Sushi Bar App-Sakura Sushi Bar AppUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sakura Sushi Bar App-Sakura Sushi Bar AppUITests/Pods-Sakura Sushi Bar App-Sakura Sushi Bar AppUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2717E7E7AF6E2FE00522A3A1 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Sakura Sushi Bar App-Sakura Sushi Bar AppUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5A77DE9FD14593912D1649F4 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Sakura Sushi Bar App/Pods-Sakura Sushi Bar App-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Sakura Sushi Bar App/Pods-Sakura Sushi Bar App-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sakura Sushi Bar App/Pods-Sakura Sushi Bar App-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DDE5581696E28C63E26DF9DD /* [CP] Check Pods Manifest.lock */ = {
+		2C13FBE80A26F4413D04E144 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -513,6 +427,84 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		3B969C3FC29D078F71549446 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sakura Sushi Bar App-Sakura Sushi Bar AppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47EAC8313C124BFF9AE13314 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sakura Sushi Bar App/Pods-Sakura Sushi Bar App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sakura Sushi Bar App/Pods-Sakura Sushi Bar App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sakura Sushi Bar App/Pods-Sakura Sushi Bar App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A7A8F91FC61403354436434 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sakura Sushi Bar App-Sakura Sushi Bar AppUITests/Pods-Sakura Sushi Bar App-Sakura Sushi Bar AppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sakura Sushi Bar App-Sakura Sushi Bar AppUITests/Pods-Sakura Sushi Bar App-Sakura Sushi Bar AppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sakura Sushi Bar App-Sakura Sushi Bar AppUITests/Pods-Sakura Sushi Bar App-Sakura Sushi Bar AppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3E05BDAB7C26D6F283C6192 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sakura Sushi Bar AppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -520,11 +512,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35CA46892B4E1236004F0ED4 /* BasketViewController.swift in Sources */,
+				3556C7DE2B4B1FC100B0A2D9 /* MenuController.swift in Sources */,
 				034617FA2813FE8300BCF16F /* ViewController.swift in Sources */,
+				3556C7E02B4B7EDE00B0A2D9 /* MenuViewController.swift in Sources */,
 				034617F62813FE8200BCF16F /* AppDelegate.swift in Sources */,
 				034617F82813FE8300BCF16F /* SceneDelegate.swift in Sources */,
 				031289F028295C3500FDA4A4 /* MapViewController.swift in Sources */,
-				031289E02829248A00FDA4A4 /* MenuViewController.swift in Sources */,
+				35538BE92B4A2DAA008108E4 /* LaunchController.swift in Sources */,
+				35CA468E2B4E144E004F0ED4 /* BasketContext.swift in Sources */,
+				357B1D902B50AB10008B1648 /* Model.xcdatamodeld in Sources */,
+				35D372D92B4ACFE5003CAEB4 /* MenuSchema.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -534,7 +532,6 @@
 			files = (
 				0346180D2813FF5F00BCF16F /* Sakura_Sushi_Bar_AppTests.swift in Sources */,
 				031289F128295C3600FDA4A4 /* MapViewController.swift in Sources */,
-				031289E12829248A00FDA4A4 /* MenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -543,7 +540,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				034618192813FF5F00BCF16F /* Sakura_Sushi_Bar_AppUITestsLaunchTests.swift in Sources */,
-				031289E22829248A00FDA4A4 /* MenuViewController.swift in Sources */,
 				034618172813FF5F00BCF16F /* Sakura_Sushi_Bar_AppUITests.swift in Sources */,
 				031289F228295C3600FDA4A4 /* MapViewController.swift in Sources */,
 			);
@@ -588,6 +584,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -620,6 +617,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				EXCLUDED_ARCHS = "";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -648,6 +646,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -691,6 +690,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 14.6;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -700,16 +700,24 @@
 		};
 		0346181D2813FF5F00BCF16F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7B2FFC165599BBB65F1B3C7F /* Pods-Sakura Sushi Bar App.debug.xcconfig */;
+			baseConfigurationReference = C6DA8978D1F866824E77B8BB /* Pods-Sakura Sushi Bar App.debug.xcconfig */;
 			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					arm64,
+					x86_64,
+				);
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = JG9KLKQU99;
+				"EXCLUDED_ARCHS[sdk=*]" = arm64;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Sakura Sushi Bar App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -719,9 +727,13 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "private.Sakura-Sushi-Bar-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_ENABLE_BATCH_MODE = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -729,16 +741,25 @@
 		};
 		0346181E2813FF5F00BCF16F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 27787A9CD141889028037FB1 /* Pods-Sakura Sushi Bar App.release.xcconfig */;
+			baseConfigurationReference = 1633AED99206A06A688BA3CF /* Pods-Sakura Sushi Bar App.release.xcconfig */;
 			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					arm64,
+					x86_64,
+				);
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = JG9KLKQU99;
+				EXCLUDED_ARCHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Sakura Sushi Bar App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -748,9 +769,13 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "private.Sakura-Sushi-Bar-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_ENABLE_BATCH_MODE = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -758,7 +783,7 @@
 		};
 		034618202813FF5F00BCF16F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9259C178E81B65C16D6F14F8 /* Pods-Sakura Sushi Bar AppTests.debug.xcconfig */;
+			baseConfigurationReference = 722844CC2F3361A48462ED14 /* Pods-Sakura Sushi Bar AppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -779,7 +804,7 @@
 		};
 		034618212813FF5F00BCF16F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7EBBB8C1750816CBAED71B95 /* Pods-Sakura Sushi Bar AppTests.release.xcconfig */;
+			baseConfigurationReference = 80728DA488AEBDAE2A3B8AC1 /* Pods-Sakura Sushi Bar AppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -800,7 +825,7 @@
 		};
 		034618232813FF5F00BCF16F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7A13128A2980D42857B20666 /* Pods-Sakura Sushi Bar App-Sakura Sushi Bar AppUITests.debug.xcconfig */;
+			baseConfigurationReference = 7201E5F6261346873ABAD76F /* Pods-Sakura Sushi Bar App-Sakura Sushi Bar AppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -819,7 +844,7 @@
 		};
 		034618242813FF5F00BCF16F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A811DBCA15AB06614CAD7665 /* Pods-Sakura Sushi Bar App-Sakura Sushi Bar AppUITests.release.xcconfig */;
+			baseConfigurationReference = AB45E371E33DB667280516A8 /* Pods-Sakura Sushi Bar App-Sakura Sushi Bar AppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -876,6 +901,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		357B1D8E2B50AB10008B1648 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				357B1D8F2B50AB10008B1648 /* Model.xcdatamodel */,
+			);
+			currentVersion = 357B1D8F2B50AB10008B1648 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 034617EA2813FE8000BCF16F /* Project object */;
 }

@@ -1,0 +1,32 @@
+# macOS
+.DS_Store
+
+# Xcode
+build/
+*.pbxuser
+*.xcworkspace/
+xcuserdata/
+project.xcworkspace/
+xcuserdata/
+
+# Swift Package Manager
+.build/
+DerivedData/
+.build/
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Checkouts
+Carthage/Build
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Swift Package Manager
+Package.resolved

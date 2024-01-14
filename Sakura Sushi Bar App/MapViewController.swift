@@ -1,40 +1,39 @@
+////
+////  MapViewController.swift
+////  Sakura Sushi Bar App
+////
+////  Created by Josh Jarvis on 09/05/2022.
+////
 //
-//  MapViewController.swift
-//  Sakura Sushi Bar App
-//
-//  Created by Josh Jarvis on 09/05/2022.
-//
-
 import UIKit
-import GoogleMaps
+import MapKit
 
 class MapViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-        // Create a GMSCameraPosition that tells the map to display at default coordinates
-        let camera_default = GMSCameraPosition.camera(withLatitude: 51.53, longitude: -0.14, zoom: 0.0)
-        let mapView = GMSMapView.map(withFrame: self.view.frame, camera: camera_default)
-        mapView.isMyLocationEnabled = true
+        
+        // Create a map view with default coordinates
+        let mapView = MKMapView(frame: self.view.frame)
+        mapView.showsUserLocation = true
         self.view.addSubview(mapView)
         
-        // Creates a marker at different locations
+        // Create an annotation for Camden
+        let camdenAnnotation = MKPointAnnotation()
+        camdenAnnotation.coordinate = CLLocationCoordinate2D(latitude: 51.53, longitude: -0.14)
+        camdenAnnotation.title = "Sakura Sushi Bar Camden"
+        camdenAnnotation.subtitle = "Opening Hours: \n Monday to Friday: 10:00 - 23:00 \n Saturday: 10:00 - 00:00 \n Sunday: 12:00 - 22:00"
+        mapView.addAnnotation(camdenAnnotation)
         
-        // Location one: Camden
-        let camdenMarker = GMSMarker()
-        camdenMarker.position = CLLocationCoordinate2D(latitude: 51.53, longitude: -0.14)
-        camdenMarker.title = "Sakura Sushi Bar Camden"
-        camdenMarker.snippet = "Opening Hours: \n Monday to Friday: 10:00 - 23:00 \n Saturday: 10:00 - 00:00 \n Sunday: 12:00 - 22:00"
-        camdenMarker.map = mapView
+        // Create an annotation for Oxford Street
+        let oxfordAnnotation = MKPointAnnotation()
+        oxfordAnnotation.coordinate = CLLocationCoordinate2D(latitude: 51.51, longitude: -0.14492555471219715)
+        oxfordAnnotation.title = "Sakura Sushi Bar Oxford Street"
+        oxfordAnnotation.subtitle = "Opening Hours: \n Monday to Friday: 10:00 - 23:00 \n Saturday: 10:00 - 00:00 \n Sunday: 12:00 - 22:00"
+        mapView.addAnnotation(oxfordAnnotation)
         
-        // Location one: Oxford Street
-        let oxfordMarker = GMSMarker()
-        oxfordMarker.position = CLLocationCoordinate2D(latitude: 51.51, longitude: -0.14492555471219715)
-        oxfordMarker.title = "Sakura Sushi Bar Oxford Street"
-        oxfordMarker.snippet = "Opening Hours: \n Monday to Friday: 10:00 - 23:00 \n Saturday: 10:00 - 00:00 \n Sunday: 12:00 - 22:00"
-        
-        oxfordMarker.map = mapView
-        
-  }
+        // Set initial region
+        let initialRegion = MKCoordinateRegion(center: camdenAnnotation.coordinate, latitudinalMeters: 5000, longitudinalMeters: 5000)
+        mapView.setRegion(initialRegion, animated: true)
+    }
 }
